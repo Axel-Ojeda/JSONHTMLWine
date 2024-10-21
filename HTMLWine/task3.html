@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch JSON Data Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        h2, p {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        img {
+            margin-top: 20px;
+            width: 300px;
+            height: auto;
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="input-text" placeholder="Type 'text1' or 'text2'" />
+    <button id="submit-button">Submit</button>
+    <h2 id="heading-test">This is where the heading will be displayed.</h2>
+    <p id="text-test">This is where the text will be displayed.</p>
+    <img id="image-test" src="" alt="Image will be displayed here." />
+
+    <script>
+        // Inline JSON data
+        const jsonData = {
+            "text1": {
+                "heading": "First Heading",
+                "message": "Hello, this is the first message from the inline JSON!",
+                "image": "image1.png"
+            },
+            "text2": {
+                "heading": "Second Heading",
+                "message": "Hi, this is the second message from the inline JSON!",
+                "image": "image2.png"
+            }
+        };
+
+        document.getElementById('submit-button').addEventListener('click', function() {
+            const userInput = document.getElementById('input-text').value;
+            if (jsonData[userInput]) {
+                document.getElementById('heading-test').textContent = jsonData[userInput].heading;
+                document.getElementById('text-test').textContent = jsonData[userInput].message;
+                document.getElementById('image-test').src = jsonData[userInput].image;
+            } else {
+                document.getElementById('heading-test').textContent = "No matching heading found.";
+                document.getElementById('text-test').textContent = "No matching message found.";
+                document.getElementById('image-test').src = "";
+                document.getElementById('image-test').alt = "No matching image found.";
+            }
+        });
+    </script>
+</body>
+</html>

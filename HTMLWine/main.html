@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Reader Input</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #inputBar {
+            font-size: 1.2em;
+            padding: 0.5em;
+            width: 80%;
+            max-width: 300px;
+        }
+        #display {
+            margin-top: 1em;
+            font-size: 1.5em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="inputBar" placeholder="Scan or type a barcode">
+    <div id="display"></div>
+
+    <script>
+        document.getElementById('inputBar').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                document.getElementById('display').innerText = this.value;
+                this.value = ''; // Clear the input bar after displaying the text
+            }
+        });
+    </script>
+</body>
+</html>
