@@ -1,0 +1,2012 @@
+{
+  "meta": {
+    "brightAuthorVersion": "1.44.0",
+    "buildType": "Standard"
+  },
+  "bsdm": {
+    "sign": {
+      "properties": {
+        "id": "ef68c311-e35c-4000-ad71-d558ccca4000",
+        "version": "1.3.10",
+        "name": "EjemploBar",
+        "videoMode": "1920x1080x60p",
+        "size": {
+          "width": 1080,
+          "height": 1920
+        },
+        "model": "XT1144",
+        "monitorOrientation": "PortraitBottomLeft",
+        "monitorOverscan": "OverscanTitleSafeArea",
+        "videoConnector": "HDMI",
+        "deviceWebPageDisplay": "Standard",
+        "backgroundScreenColor": {
+          "r": 255,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "forceResolution": false,
+        "tenBitColorEnabled": false,
+        "dolbyVisionEnabled": false,
+        "fullResGraphicsEnabled": false,
+        "audioConfiguration": "MixedAudioPCMOnly",
+        "audioAutoLevel": false,
+        "htmlEnableJavascriptConsole": false,
+        "alphabetizeVariableNames": false,
+        "autoCreateMediaCounterVariables": false,
+        "resetVariablesOnPresentationStart": false,
+        "networkedVariablesUpdateInterval": 30,
+        "delayScheduleChangeUntilMediaEndEvent": false,
+        "language": "English",
+        "languageKey": "eng",
+        "flipCoordinates": false,
+        "inactivityTimeout": false,
+        "inactivityTime": 30,
+        "touchCursorDisplayMode": "Auto",
+        "udpDestinationAddressType": "IPAddress",
+        "udpDestinationAddress": "255.255.255.255",
+        "udpDestinationPort": 5000,
+        "udpReceiverPort": 5000,
+        "enableEnhancedSynchronization": null,
+        "disableSettingsHandler": false,
+        "htmlEnableChromiumVideoPlayback": false,
+        "gpsConfiguration": "None",
+        "isMosaic": false,
+        "graphicsZOrder": "Back"
+      },
+      "serialPortConfigurations": [
+        {
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CRLF",
+          "receiveEol": "CRLF",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "2",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CRLF",
+          "receiveEol": "CRLF",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "output",
+        "output",
+        "output",
+        "output",
+        "output",
+        "output",
+        "output",
+        "output"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Ir-in"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1002",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "0": {
+              "buttonCode": 0,
+              "buttonDescription": "Option"
+            },
+            "1": {
+              "buttonCode": 1,
+              "buttonDescription": "1"
+            },
+            "2": {
+              "buttonCode": 2,
+              "buttonDescription": "2"
+            },
+            "3": {
+              "buttonCode": 3,
+              "buttonDescription": "3"
+            },
+            "4": {
+              "buttonCode": 4,
+              "buttonDescription": "4"
+            },
+            "5": {
+              "buttonCode": 5,
+              "buttonDescription": "5"
+            },
+            "6": {
+              "buttonCode": 6,
+              "buttonDescription": "6"
+            },
+            "7": {
+              "buttonCode": 7,
+              "buttonDescription": "7"
+            },
+            "8": {
+              "buttonCode": 8,
+              "buttonDescription": "8"
+            },
+            "9": {
+              "buttonCode": 9,
+              "buttonDescription": "9"
+            },
+            "10": {
+              "buttonCode": 10,
+              "buttonDescription": "Exit"
+            },
+            "11": {
+              "buttonCode": 11,
+              "buttonDescription": "Channel Up"
+            },
+            "12": {
+              "buttonCode": 12,
+              "buttonDescription": "Period \".\""
+            },
+            "13": {
+              "buttonCode": 13,
+              "buttonDescription": "Channel Down"
+            },
+            "14": {
+              "buttonCode": 14,
+              "buttonDescription": "Source"
+            },
+            "15": {
+              "buttonCode": 15,
+              "buttonDescription": "Mute"
+            },
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            },
+            "67": {
+              "buttonCode": 67,
+              "buttonDescription": "Info"
+            },
+            "68": {
+              "buttonCode": 68,
+              "buttonDescription": "Green"
+            },
+            "69": {
+              "buttonCode": 69,
+              "buttonDescription": "0"
+            },
+            "70": {
+              "buttonCode": 70,
+              "buttonDescription": "Stop"
+            },
+            "71": {
+              "buttonCode": 71,
+              "buttonDescription": "Last"
+            },
+            "83": {
+              "buttonCode": 83,
+              "buttonDescription": "Red"
+            },
+            "84": {
+              "buttonCode": 84,
+              "buttonDescription": "Blue"
+            },
+            "87": {
+              "buttonCode": 87,
+              "buttonDescription": "Yellow"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 0
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 0
+        },
+        "hdmi1": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi2": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi4": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 0
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "wssDeviceSpec": {},
+      "lastModifiedTime": "2024-10-21T12:41:39.089Z"
+    },
+    "zones": {
+      "zonesById": {
+        "7fdfd45b-8dd6-4000-ab3f-c633234cf000": {
+          "id": "7fdfd45b-8dd6-4000-ab3f-c633234cf000",
+          "name": "Zone 1",
+          "type": "VideoOrImages",
+          "tag": "VI1",
+          "nonInteractive": false,
+          "initialMediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "pct": false
+          },
+          "properties": {
+            "viewMode": "Fill Screen and Centered",
+            "videoVolume": 0,
+            "maxContentResolution": "HD",
+            "brightness": 128,
+            "contrast": 64,
+            "saturation": 64,
+            "hue": 0,
+            "zOrderFront": true,
+            "mosaic": false,
+            "audioOutput": "Analog",
+            "audioMode": "Stereo",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "None",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "spdif": "None",
+              "hdmi": "None",
+              "hdmi1": "Pcm",
+              "hdmi2": "None",
+              "hdmi3": "None",
+              "hdmi4": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 10,
+            "minimumVolume": 10,
+            "maximumVolume": 10,
+            "imageMode": "Scale to Fill and Crop"
+          }
+        }
+      },
+      "allZones": [
+        "7fdfd45b-8dd6-4000-ab3f-c633234cf000"
+      ],
+      "zoneLayersById": {
+        "660ee1e9-f808-4000-a47c-6e2762a3d000": {
+          "id": "660ee1e9-f808-4000-a47c-6e2762a3d000",
+          "type": "Graphics",
+          "zoneSequence": [
+            "7fdfd45b-8dd6-4000-ab3f-c633234cf000"
+          ]
+        },
+        "4283d341-e25b-4000-a2cd-1a686588c000": {
+          "id": "4283d341-e25b-4000-a2cd-1a686588c000",
+          "type": "Audio",
+          "zoneSequence": []
+        },
+        "3b2e5716-c18c-4000-a593-0158e051b000": {
+          "id": "3b2e5716-c18c-4000-a593-0158e051b000",
+          "type": "Invisible",
+          "zoneSequence": []
+        },
+        "8e2ff5a1-2519-4000-aa8c-dac260b78000": {
+          "id": "8e2ff5a1-2519-4000-aa8c-dac260b78000",
+          "type": "Video",
+          "zoneSequence": [
+            "7fdfd45b-8dd6-4000-ab3f-c633234cf000"
+          ],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 0,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        },
+        "99e6253a-8a10-4000-ae7f-7bda2b1b6000": {
+          "id": "99e6253a-8a10-4000-ae7f-7bda2b1b6000",
+          "type": "Video",
+          "zoneSequence": [],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 1,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        }
+      },
+      "zoneLayerSequence": [
+        "660ee1e9-f808-4000-a47c-6e2762a3d000",
+        "8e2ff5a1-2519-4000-aa8c-dac260b78000",
+        "99e6253a-8a10-4000-ae7f-7bda2b1b6000"
+      ],
+      "zoneTagIndices": {
+        "7fdfd45b-8dd6-4000-ab3f-c633234cf000": 11
+      }
+    },
+    "screens": {
+      "screensById": {},
+      "allScreens": []
+    },
+    "mediaStates": {
+      "mediaStatesById": {
+        "a6c178cc-19d7-4000-a312-50109c8c3000": {
+          "id": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "name": "2.mp4",
+          "tag": "5",
+          "container": {
+            "id": "7fdfd45b-8dd6-4000-ab3f-c633234cf000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "2.mp4",
+            "type": "Video",
+            "assetId": "ed4383f1-2143-4000-a334-57facb561000",
+            "volume": 100,
+            "videoDisplayMode": "2D",
+            "automaticallyLoop": true
+          }
+        },
+        "d6717530-0d0c-4000-ae49-5b340f51d000": {
+          "id": "d6717530-0d0c-4000-ae49-5b340f51d000",
+          "name": "4.mp4",
+          "tag": "6",
+          "container": {
+            "id": "7fdfd45b-8dd6-4000-ab3f-c633234cf000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "4.mp4",
+            "type": "Video",
+            "assetId": "8852a9c0-d95f-4000-a955-cd3e9cc9c000",
+            "volume": 100,
+            "videoDisplayMode": "2D",
+            "automaticallyLoop": true
+          }
+        },
+        "30fc5b23-f6de-4000-a2ad-eb7608e36000": {
+          "id": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+          "name": "origen.mp4",
+          "tag": "7",
+          "container": {
+            "id": "7fdfd45b-8dd6-4000-ab3f-c633234cf000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "origenv1.png",
+            "type": "Image",
+            "assetId": "fbca0c1e-566f-4000-a4ff-a9ba3c412000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "bc79395d-c149-4000-a634-a503f469e000": {
+          "id": "bc79395d-c149-4000-a634-a503f469e000",
+          "name": "sibaris.mp4",
+          "tag": "8",
+          "container": {
+            "id": "7fdfd45b-8dd6-4000-ab3f-c633234cf000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "sibarisv1.png",
+            "type": "Image",
+            "assetId": "445bcf27-14dc-4000-a0ba-8eb6f8f63000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "cc0e89eb-a96d-4000-aec5-368e35526000": {
+          "id": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "name": "HTML 5",
+          "tag": "9",
+          "container": {
+            "id": "7fdfd45b-8dd6-4000-ab3f-c633234cf000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "HTML 5",
+            "type": "Html",
+            "siteId": "fc0b3107-3242-4000-a5d1-128e65c1e000",
+            "enableBrightSignJavascriptObjects": true,
+            "enableCrossDomainPolicyChecks": false,
+            "ignoreHttpsCertificateErrors": false,
+            "enableCamera": false,
+            "enableMouseEvents": true,
+            "displayCursor": true,
+            "hwzOn": true,
+            "useUserStylesheet": false,
+            "enableFileURLSharedStorage": true,
+            "enableHtmlURLSharedStorage": false
+          }
+        },
+        "7606044b-6627-4000-a834-56d6acf72000": {
+          "id": "7606044b-6627-4000-a834-56d6acf72000",
+          "name": "vinorotativo1.mp4",
+          "tag": "10",
+          "container": {
+            "id": "7fdfd45b-8dd6-4000-ab3f-c633234cf000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "vinorotativo1.mp4",
+            "type": "Video",
+            "assetId": "5163d89e-a30a-4000-a110-aa908e70c000",
+            "volume": 100,
+            "videoDisplayMode": "2D",
+            "automaticallyLoop": true
+          }
+        }
+      },
+      "sequencesByParentId": {}
+    },
+    "events": {
+      "e281ad65-363f-4000-ad69-626fa6cc1000": {
+        "id": "e281ad65-363f-4000-ad69-626fa6cc1000",
+        "name": "2.mp4_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "a9455dab-1917-4000-a2d3-079538d66000": {
+        "id": "a9455dab-1917-4000-a2d3-079538d66000",
+        "name": "4.mp4_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "d6717530-0d0c-4000-ae49-5b340f51d000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "b21a44eb-960c-4000-a5d1-075f9a1cf000": {
+        "id": "b21a44eb-960c-4000-a5d1-075f9a1cf000",
+        "name": "2.mp4_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+        "disabled": false,
+        "data": {
+          "data": "<any>",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "2d6e8a62-f2ab-4000-a4dd-0e3af01da000": {
+        "id": "2d6e8a62-f2ab-4000-a4dd-0e3af01da000",
+        "name": "4.mp4_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "d6717530-0d0c-4000-ae49-5b340f51d000",
+        "disabled": false,
+        "data": {
+          "data": "<any>",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "7aca3182-853d-4000-a997-a464cd8bb000": {
+        "id": "7aca3182-853d-4000-a997-a464cd8bb000",
+        "name": "3.mp4_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+        "disabled": false,
+        "data": {
+          "data": "<*>",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "9c07f0ef-80ad-4000-a33a-afc4291c7000": {
+        "id": "9c07f0ef-80ad-4000-a33a-afc4291c7000",
+        "name": "1.mp4_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+        "disabled": false,
+        "data": {
+          "data": "<*>",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "b73d318a-6788-4000-a8fd-ec1fa17a5000": {
+        "id": "b73d318a-6788-4000-a8fd-ec1fa17a5000",
+        "name": "2.mp4_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 0.8177171961,
+            "y": 0,
+            "width": 1915.9114139793,
+            "height": 1079.846678046,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "d1a29a54-7b65-4000-a916-86335e0e9000": {
+        "id": "d1a29a54-7b65-4000-a916-86335e0e9000",
+        "name": "4.mp4_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "d6717530-0d0c-4000-ae49-5b340f51d000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 0.8177171961,
+            "y": 0,
+            "width": 1915.9114139793,
+            "height": 1079.846678046,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "ef75b418-ad02-4000-a04d-fb46ca9dc000": {
+        "id": "ef75b418-ad02-4000-a04d-fb46ca9dc000",
+        "name": "3.mp4_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 0.8177171961,
+            "y": 0.153321954,
+            "width": 1919.1822828039,
+            "height": 417.34241907,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "471c86ec-e2ce-4000-a825-96d823fb3000": {
+        "id": "471c86ec-e2ce-4000-a825-96d823fb3000",
+        "name": "1.mp4_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 2.4531516084,
+            "y": 0.153321954,
+            "width": 1917.5468483916,
+            "height": 450.051107318,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "03584e6f-af2f-4000-a90d-3b55726c3000": {
+        "id": "03584e6f-af2f-4000-a90d-3b55726c3000",
+        "name": "HTML 5_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 1708.2112436373,
+            "y": 0.153321954,
+            "width": 210.9710391666,
+            "height": 1078.2112436336,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "7350b313-a7eb-4000-a51d-e1ba9a3f1000": {
+        "id": "7350b313-a7eb-4000-a51d-e1ba9a3f1000",
+        "name": "2.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU001]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "58b75c61-d686-4000-a4fd-31e95c431000": {
+        "id": "58b75c61-d686-4000-a4fd-31e95c431000",
+        "name": "2.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU002]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "206a3cdd-12c6-4000-a458-446ef9db7000": {
+        "id": "206a3cdd-12c6-4000-a458-446ef9db7000",
+        "name": "4.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "d6717530-0d0c-4000-ae49-5b340f51d000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU002]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "426f82b5-60bb-4000-aaf4-3e9de4b0c000": {
+        "id": "426f82b5-60bb-4000-aaf4-3e9de4b0c000",
+        "name": "4.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "d6717530-0d0c-4000-ae49-5b340f51d000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU001]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "5741b891-9df1-4000-a6ce-5a182305f000": {
+        "id": "5741b891-9df1-4000-a6ce-5a182305f000",
+        "name": "1.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU002]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "eb560e00-4c3c-4000-a9a3-c80c16333000": {
+        "id": "eb560e00-4c3c-4000-a9a3-c80c16333000",
+        "name": "3.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU001]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "0185fa41-fc55-4000-a8f4-3f4340167000": {
+        "id": "0185fa41-fc55-4000-a8f4-3f4340167000",
+        "name": "3.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PB002]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "8280db5f-5be7-4000-a5b7-4da1fc89a000": {
+        "id": "8280db5f-5be7-4000-a5b7-4da1fc89a000",
+        "name": "1.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PB001]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "543200e8-82c5-4000-ac28-9d52144b5000": {
+        "id": "543200e8-82c5-4000-ac28-9d52144b5000",
+        "name": "vinorotativo1.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "7606044b-6627-4000-a834-56d6acf72000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU001]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "6a6ab05f-782e-4000-ac03-d67de605a000": {
+        "id": "6a6ab05f-782e-4000-ac03-d67de605a000",
+        "name": "vinorotativo1.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "7606044b-6627-4000-a834-56d6acf72000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU002]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "3cdf3f47-8fb0-4000-a698-21f604416000": {
+        "id": "3cdf3f47-8fb0-4000-a698-21f604416000",
+        "name": "vinorotativo1.mp4_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "7606044b-6627-4000-a834-56d6acf72000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "ec1eb797-95c8-4000-acf8-5d68c5629000": {
+        "id": "ec1eb797-95c8-4000-acf8-5d68c5629000",
+        "name": "vinorotativo1.mp4_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "7606044b-6627-4000-a834-56d6acf72000",
+        "disabled": false,
+        "data": {
+          "data": "<*>",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "af27820f-5ab1-4000-a9c5-b7a8efa29000": {
+        "id": "af27820f-5ab1-4000-a9c5-b7a8efa29000",
+        "name": "HTML 5_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+        "disabled": false,
+        "data": {
+          "data": "33077",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "77dcae1d-1d98-4000-a89d-d13a3b43b000": {
+        "id": "77dcae1d-1d98-4000-a89d-d13a3b43b000",
+        "name": "HTML 5_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+        "disabled": false,
+        "data": {
+          "data": "30494",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "85325177-4d0c-4000-a112-724ef4580000": {
+        "id": "85325177-4d0c-4000-a112-724ef4580000",
+        "name": "HTML 5_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+        "disabled": false,
+        "data": {
+          "interval": 180
+        },
+        "action": "None"
+      },
+      "523716ef-ecf5-4000-a5f8-340d12f98000": {
+        "id": "523716ef-ecf5-4000-a5f8-340d12f98000",
+        "name": "3.mp4_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+        "disabled": false,
+        "data": {
+          "interval": 180
+        },
+        "action": "None"
+      },
+      "94922c77-7f8e-4000-a91c-bb50e1634000": {
+        "id": "94922c77-7f8e-4000-a91c-bb50e1634000",
+        "name": "1.mp4_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+        "disabled": false,
+        "data": {
+          "interval": 180
+        },
+        "action": "None"
+      },
+      "9899cb15-98e7-4000-a476-0f6837654000": {
+        "id": "9899cb15-98e7-4000-a476-0f6837654000",
+        "name": "vinorotativo1.mp4_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "7606044b-6627-4000-a834-56d6acf72000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 0.8177171961,
+            "y": 0,
+            "width": 1919.1822828039,
+            "height": 1079.846678046,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "00fec540-7d5e-4000-aa67-520ffb244000": {
+        "id": "00fec540-7d5e-4000-aa67-520ffb244000",
+        "name": "sibaris.mp4_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 2.4040066721,
+            "y": 417.4457428882,
+            "width": 280.4674457348,
+            "height": 661.8030049946,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "16436c0c-94cd-4000-aebb-6af28c0d6000": {
+        "id": "16436c0c-94cd-4000-aebb-6af28c0d6000",
+        "name": "origen.mp4_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 2.4040066721,
+            "y": 439.8831385451,
+            "width": 290.0834724461,
+            "height": 639.3656093377,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "ec52ac1b-28de-4000-a528-7f6a1fb79000": {
+        "id": "ec52ac1b-28de-4000-a528-7f6a1fb79000",
+        "name": "sibaris.mp4_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+        "disabled": false,
+        "data": {
+          "data": "33077",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "983cf4ad-03b1-4000-a630-b4b253a08000": {
+        "id": "983cf4ad-03b1-4000-a630-b4b253a08000",
+        "name": "origen.mp4_ev_ev",
+        "type": "Usb",
+        "mediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+        "disabled": false,
+        "data": {
+          "data": "30494",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "ce058938-e6cb-4000-a82f-0bba356ca000": {
+        "id": "ce058938-e6cb-4000-a82f-0bba356ca000",
+        "name": "HTML 5_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU001]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "fd14a31d-846f-4000-ae3f-296c8f504000": {
+        "id": "fd14a31d-846f-4000-ae3f-296c8f504000",
+        "name": "HTML 5_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "XR[PU002]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      }
+    },
+    "transitions": {
+      "transitionsById": {
+        "adc3e564-564b-4000-a10a-0d034144e000": {
+          "id": "adc3e564-564b-4000-a10a-0d034144e000",
+          "name": "2.mp4_ev_tr",
+          "eventId": "e281ad65-363f-4000-ad69-626fa6cc1000",
+          "targetMediaStateId": "7606044b-6627-4000-a834-56d6acf72000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "efd721e8-82ec-4000-a806-00ea04105000": {
+          "id": "efd721e8-82ec-4000-a806-00ea04105000",
+          "name": "4.mp4_ev_tr",
+          "eventId": "a9455dab-1917-4000-a2d3-079538d66000",
+          "targetMediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "78dc7ffe-2eff-4000-a4cb-ae538de0d000": {
+          "id": "78dc7ffe-2eff-4000-a4cb-ae538de0d000",
+          "name": "2.mp4_ev_tr",
+          "eventId": "b21a44eb-960c-4000-a5d1-075f9a1cf000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "cab3a766-003f-4000-a13b-55deab670000": {
+          "id": "cab3a766-003f-4000-a13b-55deab670000",
+          "name": "4.mp4_ev_tr",
+          "eventId": "2d6e8a62-f2ab-4000-a4dd-0e3af01da000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "66ee0a4b-677c-4000-ad29-d9a4a0b05000": {
+          "id": "66ee0a4b-677c-4000-ad29-d9a4a0b05000",
+          "name": "3.mp4_ev_tr",
+          "eventId": "7aca3182-853d-4000-a997-a464cd8bb000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "921e87fa-47de-4000-a010-4b0268a71000": {
+          "id": "921e87fa-47de-4000-a010-4b0268a71000",
+          "name": "1.mp4_ev_tr",
+          "eventId": "9c07f0ef-80ad-4000-a33a-afc4291c7000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "da84366a-8938-4000-a11b-6346c5f07000": {
+          "id": "da84366a-8938-4000-a11b-6346c5f07000",
+          "name": "2.mp4_ev_tr",
+          "eventId": "b73d318a-6788-4000-a8fd-ec1fa17a5000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "4f7e64ef-94c9-4000-ac5d-20146b23d000": {
+          "id": "4f7e64ef-94c9-4000-ac5d-20146b23d000",
+          "name": "4.mp4_ev_tr",
+          "eventId": "d1a29a54-7b65-4000-a916-86335e0e9000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "524506ba-fa9c-4000-a328-ffa240b69000": {
+          "id": "524506ba-fa9c-4000-a328-ffa240b69000",
+          "name": "3.mp4_ev_tr",
+          "eventId": "ef75b418-ad02-4000-a04d-fb46ca9dc000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "9463d136-b58d-4000-a0ec-12f954762000": {
+          "id": "9463d136-b58d-4000-a0ec-12f954762000",
+          "name": "1.mp4_ev_tr",
+          "eventId": "471c86ec-e2ce-4000-a825-96d823fb3000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "19b1b227-c984-4000-a332-89e71c119000": {
+          "id": "19b1b227-c984-4000-a332-89e71c119000",
+          "name": "HTML 5_ev_tr",
+          "eventId": "03584e6f-af2f-4000-a90d-3b55726c3000",
+          "targetMediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "c0b81f05-a836-4000-a8e4-343a8320c000": {
+          "id": "c0b81f05-a836-4000-a8e4-343a8320c000",
+          "name": "2.mp4_ev_tr",
+          "eventId": "7350b313-a7eb-4000-a51d-e1ba9a3f1000",
+          "targetMediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "6dadec63-cf5f-4000-a34e-94943cfb5000": {
+          "id": "6dadec63-cf5f-4000-a34e-94943cfb5000",
+          "name": "2.mp4_ev_tr",
+          "eventId": "58b75c61-d686-4000-a4fd-31e95c431000",
+          "targetMediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "8eb65d35-085f-4000-a669-8e590f94a000": {
+          "id": "8eb65d35-085f-4000-a669-8e590f94a000",
+          "name": "4.mp4_ev_tr",
+          "eventId": "206a3cdd-12c6-4000-a458-446ef9db7000",
+          "targetMediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "92114295-1525-4000-ad9e-0d0af6eaa000": {
+          "id": "92114295-1525-4000-ad9e-0d0af6eaa000",
+          "name": "4.mp4_ev_tr",
+          "eventId": "426f82b5-60bb-4000-aaf4-3e9de4b0c000",
+          "targetMediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "6f8e8ddc-025f-4000-a4fe-e87b7cc60000": {
+          "id": "6f8e8ddc-025f-4000-a4fe-e87b7cc60000",
+          "name": "1.mp4_ev_tr",
+          "eventId": "5741b891-9df1-4000-a6ce-5a182305f000",
+          "targetMediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "f9aa62f6-bfcb-4000-a8d1-a291b080a000": {
+          "id": "f9aa62f6-bfcb-4000-a8d1-a291b080a000",
+          "name": "3.mp4_ev_tr",
+          "eventId": "eb560e00-4c3c-4000-a9a3-c80c16333000",
+          "targetMediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "1ae4b6c7-2a9e-4000-a7c9-88abb2604000": {
+          "id": "1ae4b6c7-2a9e-4000-a7c9-88abb2604000",
+          "name": "3.mp4_ev_tr",
+          "eventId": "0185fa41-fc55-4000-a8f4-3f4340167000",
+          "targetMediaStateId": "d6717530-0d0c-4000-ae49-5b340f51d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "b8fe24bf-9383-4000-affd-a32569496000": {
+          "id": "b8fe24bf-9383-4000-affd-a32569496000",
+          "name": "1.mp4_ev_tr",
+          "eventId": "8280db5f-5be7-4000-a5b7-4da1fc89a000",
+          "targetMediaStateId": "d6717530-0d0c-4000-ae49-5b340f51d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "ed4c806a-ace3-4000-a89a-0593fc504000": {
+          "id": "ed4c806a-ace3-4000-a89a-0593fc504000",
+          "name": "vinorotativo1.mp4_ev_tr",
+          "eventId": "543200e8-82c5-4000-ac28-9d52144b5000",
+          "targetMediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "9e5d8810-694a-4000-a145-20c6369f4000": {
+          "id": "9e5d8810-694a-4000-a145-20c6369f4000",
+          "name": "vinorotativo1.mp4_ev_tr",
+          "eventId": "6a6ab05f-782e-4000-ac03-d67de605a000",
+          "targetMediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "135077d2-2e28-4000-a484-37c298160000": {
+          "id": "135077d2-2e28-4000-a484-37c298160000",
+          "name": "vinorotativo1.mp4_ev_tr",
+          "eventId": "3cdf3f47-8fb0-4000-a698-21f604416000",
+          "targetMediaStateId": "d6717530-0d0c-4000-ae49-5b340f51d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "6f40d1df-4cf6-4000-a447-c14ffe987000": {
+          "id": "6f40d1df-4cf6-4000-a447-c14ffe987000",
+          "name": "vinorotativo1.mp4_ev_tr",
+          "eventId": "ec1eb797-95c8-4000-acf8-5d68c5629000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "bb0edafb-d918-4000-a25c-84212f007000": {
+          "id": "bb0edafb-d918-4000-a25c-84212f007000",
+          "name": "HTML 5_ev_tr",
+          "eventId": "af27820f-5ab1-4000-a9c5-b7a8efa29000",
+          "targetMediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7dcea445-1fe9-4000-a35a-6c2c1267c000": {
+          "id": "7dcea445-1fe9-4000-a35a-6c2c1267c000",
+          "name": "HTML 5_ev_tr",
+          "eventId": "77dcae1d-1d98-4000-a89d-d13a3b43b000",
+          "targetMediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "d4877161-4ec0-4000-a146-0f89a62cb000": {
+          "id": "d4877161-4ec0-4000-a146-0f89a62cb000",
+          "name": "HTML 5_ev_tr",
+          "eventId": "85325177-4d0c-4000-a112-724ef4580000",
+          "targetMediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "aad3d2ba-3917-4000-a5fe-6e15ab1e3000": {
+          "id": "aad3d2ba-3917-4000-a5fe-6e15ab1e3000",
+          "name": "3.mp4_ev_tr",
+          "eventId": "523716ef-ecf5-4000-a5f8-340d12f98000",
+          "targetMediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "4fc31bc4-9bb4-4000-afed-9d6d83ad1000": {
+          "id": "4fc31bc4-9bb4-4000-afed-9d6d83ad1000",
+          "name": "1.mp4_ev_tr",
+          "eventId": "94922c77-7f8e-4000-a91c-bb50e1634000",
+          "targetMediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "75fe2572-230e-4000-adc6-3b789c037000": {
+          "id": "75fe2572-230e-4000-adc6-3b789c037000",
+          "name": "vinorotativo1.mp4_ev_tr",
+          "eventId": "9899cb15-98e7-4000-a476-0f6837654000",
+          "targetMediaStateId": "cc0e89eb-a96d-4000-aec5-368e35526000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "51b72936-5db6-4000-a1be-2bb4dc3ae000": {
+          "id": "51b72936-5db6-4000-a1be-2bb4dc3ae000",
+          "name": "sibaris.mp4_ev_tr",
+          "eventId": "00fec540-7d5e-4000-aa67-520ffb244000",
+          "targetMediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "f1e87592-20de-4000-a42c-6ab6fe348000": {
+          "id": "f1e87592-20de-4000-a42c-6ab6fe348000",
+          "name": "origen.mp4_ev_tr",
+          "eventId": "16436c0c-94cd-4000-aebb-6af28c0d6000",
+          "targetMediaStateId": "a6c178cc-19d7-4000-a312-50109c8c3000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "8998b4a1-c416-4000-a725-fff72ad48000": {
+          "id": "8998b4a1-c416-4000-a725-fff72ad48000",
+          "name": "sibaris.mp4_ev_tr",
+          "eventId": "ec52ac1b-28de-4000-a528-7f6a1fb79000",
+          "targetMediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "ad1a5f66-2c20-4000-aea7-6f0b1b22c000": {
+          "id": "ad1a5f66-2c20-4000-aea7-6f0b1b22c000",
+          "name": "origen.mp4_ev_tr",
+          "eventId": "983cf4ad-03b1-4000-a630-b4b253a08000",
+          "targetMediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "26badb61-2025-4000-a56c-7657f3339000": {
+          "id": "26badb61-2025-4000-a56c-7657f3339000",
+          "name": "HTML 5_ev_tr",
+          "eventId": "ce058938-e6cb-4000-a82f-0bba356ca000",
+          "targetMediaStateId": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "1322f9e0-1204-4000-a4d5-e2b390696000": {
+          "id": "1322f9e0-1204-4000-a4d5-e2b390696000",
+          "name": "HTML 5_ev_tr",
+          "eventId": "fd14a31d-846f-4000-ae3f-296c8f504000",
+          "targetMediaStateId": "bc79395d-c149-4000-a634-a503f469e000",
+          "type": "No effect",
+          "duration": 0
+        }
+      },
+      "sequencesByEventId": {}
+    },
+    "commands": {
+      "commandsById": {},
+      "sequencesById": {}
+    },
+    "userDefinedEvents": {
+      "userDefinedEventsById": {},
+      "sequence": []
+    },
+    "htmlSites": {
+      "fc0b3107-3242-4000-a5d1-128e65c1e000": {
+        "id": "fc0b3107-3242-4000-a5d1-128e65c1e000",
+        "type": "Hosted",
+        "name": "HTML 5 Site",
+        "queryString": {
+          "params": []
+        },
+        "indexAssetId": "7821568f-e990-4000-a83b-cc65232a8000",
+        "enableNode": false
+      }
+    },
+    "nodeApps": {},
+    "dataFeeds": {
+      "feedsById": {},
+      "sourcesById": {}
+    },
+    "userVariables": {
+      "variablesById": {},
+      "sequence": []
+    },
+    "liveText": {
+      "itemsById": {},
+      "layersByCanvasId": {},
+      "dataFeedsByGroupId": {},
+      "canvasesById": {}
+    },
+    "deviceWebPages": {},
+    "scriptPlugins": {},
+    "parserPlugins": {},
+    "videoModePlugins": {},
+    "auxiliaryFiles": {},
+    "linkedPresentations": {},
+    "partnerProducts": {},
+    "customAutorun": "0",
+    "bmapSpec": "0",
+    "assetMap": {
+      "ed4383f1-2143-4000-a334-57facb561000": {
+        "id": "ed4383f1-2143-4000-a334-57facb561000",
+        "name": "2.mp4",
+        "path": "C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "2bd964acaa4fbcaf",
+        "locator": "file://\\C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\2.mp4",
+        "mediaType": "Video",
+        "fileSize": 426197,
+        "lastModifiedDate": "2024-08-12T20:49:14.997Z",
+        "refCount": 1
+      },
+      "8852a9c0-d95f-4000-a955-cd3e9cc9c000": {
+        "id": "8852a9c0-d95f-4000-a955-cd3e9cc9c000",
+        "name": "4.mp4",
+        "path": "C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "2bd964acaa4fbcaf",
+        "locator": "file://\\C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\4.mp4",
+        "mediaType": "Video",
+        "fileSize": 8522482,
+        "lastModifiedDate": "2024-08-12T20:49:15.169Z",
+        "refCount": 1
+      },
+      "7821568f-e990-4000-a83b-cc65232a8000": {
+        "id": "7821568f-e990-4000-a83b-cc65232a8000",
+        "name": "task4.html",
+        "path": "C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "HtmlSite",
+        "scope": "2bd964acaa4fbcaf",
+        "locator": "file://\\C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\task4.html",
+        "fileSize": 20439,
+        "lastModifiedDate": "2024-08-16T16:30:38.536Z",
+        "refCount": 1
+      },
+      "5163d89e-a30a-4000-a110-aa908e70c000": {
+        "id": "5163d89e-a30a-4000-a110-aa908e70c000",
+        "name": "vinorotativo1.mp4",
+        "path": "C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "2bd964acaa4fbcaf",
+        "locator": "file://\\C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\vinorotativo1.mp4",
+        "mediaType": "Video",
+        "fileSize": 367342452,
+        "lastModifiedDate": "2024-08-16T01:09:12.862Z",
+        "refCount": 1
+      },
+      "445bcf27-14dc-4000-a0ba-8eb6f8f63000": {
+        "id": "445bcf27-14dc-4000-a0ba-8eb6f8f63000",
+        "name": "sibarisv1.png",
+        "path": "C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "2bd964acaa4fbcaf",
+        "locator": "file://\\C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\sibarisv1.png",
+        "mediaType": "Image",
+        "fileSize": 4867906,
+        "lastModifiedDate": "2024-08-16T15:56:22.012Z",
+        "refCount": 1
+      },
+      "fbca0c1e-566f-4000-a4ff-a9ba3c412000": {
+        "id": "fbca0c1e-566f-4000-a4ff-a9ba3c412000",
+        "name": "origenv1.png",
+        "path": "C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "2bd964acaa4fbcaf",
+        "locator": "file://\\C:\\Docs\\OneDrive - ADAPTOR Chile\\Desktop\\Pruebas de Codigo\\HTMLWine\\origenv1.png",
+        "mediaType": "Image",
+        "fileSize": 4843163,
+        "lastModifiedDate": "2024-08-16T15:56:08.736Z",
+        "refCount": 1
+      }
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCADIAHADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAgBBv/EAC0QAQABAwEFBgcBAQAAAAAAAAABOXHGpgMIESlhBAUGCRVRAhgiI0FEVXMZ/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAMEAgUB/8QAKREAAQIFAgUEAwAAAAAAAAAAAAIDARFBcsETQhIhYZLhFVNikQUyUf/aAAwDAQACEQMRAD8A6vdy3c9zX5NfD+8DvBeDp/b9X729Q71/q7bsmw+x2Ta/5fB9HwdZ/Mt5NX5mdVHDk1TPXKljveccVxLUpa/3VDkqUIQhLpH+nK18BHHDyavedVHDyavedVLHHGt8193glr9COOHk1e86qOHk1e86qWOGt8193ga/Qjjh5NXvOqjh5NXvOqljhrfNfd4Gv0I44eTV7zqo4eTV7zqpY4a3zX3eBr9COOHk1e86qOHk1e86qWOGt8193ga/Qjif+NX4mdVM3jd3Pc1+TXxDvA7vvg6f1PSO9vUO9f6ux7Jt/sdr2v8Ar8H1/B1j8SshHHDk1RPXKnbbiuJCkrX+6Yc1ThGEfr+FUL4xFGqb5UsdHEUapvlSx3Du+9WCT9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWOO771YD9AAzkQAAAAAAAAAI4mjVF8qWOjiaNUXypoZ2XpyWYqIo1TfKljo4ijVN8qWO+uwnx3qwH6ABnlEiACUQACUQACUQACUQEcTRqi+VLHRxNGqL5UuzCXBenJZipm7nvGbmvya+Ht33eC8Yz+36t3T6d3r/V23a9h9/smy/y+P6Np0n8w3k1ddVA9iP4xEVLUlxUJxjHlGXP6NMhyaeuqTk1ddUg69Mh7q+7wJQHJq66pOTV11SB6ZD3V93gSgOTV11ScmrrqkD0yHur7vAlAcmrrqk5NXXVIHpkPdX3eBKA5NXXVJyaeuqQPTIe6vu8CUByauuqmbxm8Zua/Jr4h3fd33xjP6npPdPp3ev9XY9r2/3+17L/AF+P69p0j8QDlP41EFIUpaoyjCPOM+f0JH//2Q==",
+      "size": {
+        "width": 112,
+        "height": 200
+      },
+      "hash": "c2bf5c5006d51282c3ab59eda77da5ca456ea075"
+    }
+  },
+  "selection": {
+    "hovered": null,
+    "selectionContainer": {
+      "id": "7fdfd45b-8dd6-4000-ab3f-c633234cf000",
+      "type": "ZONE",
+      "selectableType": "ZONE",
+      "name": "Zone 1: Video, Image, or Audio"
+    },
+    "selectionEntities": {},
+    "prevSelectionEntities": {
+      "fd14a31d-846f-4000-ae3f-296c8f504000": {
+        "id": "fd14a31d-846f-4000-ae3f-296c8f504000",
+        "type": "Event",
+        "selectableType": "TRANSITION",
+        "selectableData": null
+      }
+    },
+    "isEventAdvancedEnabled": false,
+    "activeAssetMenuTab": "WIDGETS"
+  },
+  "interactiveCanvas": {
+    "statePositionById": {
+      "a6c178cc-19d7-4000-a312-50109c8c3000": {
+        "id": "a6c178cc-19d7-4000-a312-50109c8c3000",
+        "position": {
+          "x": -900,
+          "y": -300
+        }
+      },
+      "d6717530-0d0c-4000-ae49-5b340f51d000": {
+        "id": "d6717530-0d0c-4000-ae49-5b340f51d000",
+        "position": {
+          "x": -180,
+          "y": -300
+        }
+      },
+      "30fc5b23-f6de-4000-a2ad-eb7608e36000": {
+        "id": "30fc5b23-f6de-4000-a2ad-eb7608e36000",
+        "position": {
+          "x": -660,
+          "y": 60
+        }
+      },
+      "bc79395d-c149-4000-a634-a503f469e000": {
+        "id": "bc79395d-c149-4000-a634-a503f469e000",
+        "position": {
+          "x": -300,
+          "y": 60
+        }
+      },
+      "cc0e89eb-a96d-4000-aec5-368e35526000": {
+        "id": "cc0e89eb-a96d-4000-aec5-368e35526000",
+        "position": {
+          "x": 180,
+          "y": -60
+        }
+      },
+      "7606044b-6627-4000-a834-56d6acf72000": {
+        "id": "7606044b-6627-4000-a834-56d6acf72000",
+        "position": {
+          "x": -540,
+          "y": -300
+        }
+      }
+    },
+    "eventDataById": {
+      "4d0bd503-03b7-4000-acc6-a663c09c0000": {
+        "id": "4d0bd503-03b7-4000-acc6-a663c09c0000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "a81d884d-3123-4000-a539-3c779369d000": {
+        "id": "a81d884d-3123-4000-a539-3c779369d000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "be71222c-9a5f-4000-adb4-bce6e7bcb000": {
+        "id": "be71222c-9a5f-4000-adb4-bce6e7bcb000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "bab97913-fde2-4000-aa1b-722d253c1000": {
+        "id": "bab97913-fde2-4000-aa1b-722d253c1000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "02629103-5a7e-4000-a2ae-1efe1a577000": {
+        "id": "02629103-5a7e-4000-a2ae-1efe1a577000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "c01a10fb-b91a-4000-a1bb-ac5a4eebc000": {
+        "id": "c01a10fb-b91a-4000-a1bb-ac5a4eebc000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "f86cb24d-dd96-4000-a15c-9af29833e000": {
+        "id": "f86cb24d-dd96-4000-a15c-9af29833e000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "8891566c-cdf9-4000-a94c-5fa436b37000": {
+        "id": "8891566c-cdf9-4000-a94c-5fa436b37000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "e26576cf-e0ee-4000-a14e-1071d2831000": {
+        "id": "e26576cf-e0ee-4000-a14e-1071d2831000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "ed059453-74a6-4000-acf6-b1e631a4e000": {
+        "id": "ed059453-74a6-4000-acf6-b1e631a4e000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "463f765e-ddb0-4000-aa61-b8f09e938000": {
+        "id": "463f765e-ddb0-4000-aa61-b8f09e938000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "e281ad65-363f-4000-ad69-626fa6cc1000": {
+        "id": "e281ad65-363f-4000-ad69-626fa6cc1000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "a9455dab-1917-4000-a2d3-079538d66000": {
+        "id": "a9455dab-1917-4000-a2d3-079538d66000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "b21a44eb-960c-4000-a5d1-075f9a1cf000": {
+        "id": "b21a44eb-960c-4000-a5d1-075f9a1cf000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "2d6e8a62-f2ab-4000-a4dd-0e3af01da000": {
+        "id": "2d6e8a62-f2ab-4000-a4dd-0e3af01da000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "7aca3182-853d-4000-a997-a464cd8bb000": {
+        "id": "7aca3182-853d-4000-a997-a464cd8bb000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "9c07f0ef-80ad-4000-a33a-afc4291c7000": {
+        "id": "9c07f0ef-80ad-4000-a33a-afc4291c7000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "b73d318a-6788-4000-a8fd-ec1fa17a5000": {
+        "id": "b73d318a-6788-4000-a8fd-ec1fa17a5000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "d1a29a54-7b65-4000-a916-86335e0e9000": {
+        "id": "d1a29a54-7b65-4000-a916-86335e0e9000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "ef75b418-ad02-4000-a04d-fb46ca9dc000": {
+        "id": "ef75b418-ad02-4000-a04d-fb46ca9dc000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "471c86ec-e2ce-4000-a825-96d823fb3000": {
+        "id": "471c86ec-e2ce-4000-a825-96d823fb3000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "03584e6f-af2f-4000-a90d-3b55726c3000": {
+        "id": "03584e6f-af2f-4000-a90d-3b55726c3000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "7350b313-a7eb-4000-a51d-e1ba9a3f1000": {
+        "id": "7350b313-a7eb-4000-a51d-e1ba9a3f1000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "58b75c61-d686-4000-a4fd-31e95c431000": {
+        "id": "58b75c61-d686-4000-a4fd-31e95c431000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "206a3cdd-12c6-4000-a458-446ef9db7000": {
+        "id": "206a3cdd-12c6-4000-a458-446ef9db7000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "426f82b5-60bb-4000-aaf4-3e9de4b0c000": {
+        "id": "426f82b5-60bb-4000-aaf4-3e9de4b0c000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "5741b891-9df1-4000-a6ce-5a182305f000": {
+        "id": "5741b891-9df1-4000-a6ce-5a182305f000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "eb560e00-4c3c-4000-a9a3-c80c16333000": {
+        "id": "eb560e00-4c3c-4000-a9a3-c80c16333000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "0185fa41-fc55-4000-a8f4-3f4340167000": {
+        "id": "0185fa41-fc55-4000-a8f4-3f4340167000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "8280db5f-5be7-4000-a5b7-4da1fc89a000": {
+        "id": "8280db5f-5be7-4000-a5b7-4da1fc89a000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "543200e8-82c5-4000-ac28-9d52144b5000": {
+        "id": "543200e8-82c5-4000-ac28-9d52144b5000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "6a6ab05f-782e-4000-ac03-d67de605a000": {
+        "id": "6a6ab05f-782e-4000-ac03-d67de605a000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "3cdf3f47-8fb0-4000-a698-21f604416000": {
+        "id": "3cdf3f47-8fb0-4000-a698-21f604416000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "ec1eb797-95c8-4000-acf8-5d68c5629000": {
+        "id": "ec1eb797-95c8-4000-acf8-5d68c5629000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "af27820f-5ab1-4000-a9c5-b7a8efa29000": {
+        "id": "af27820f-5ab1-4000-a9c5-b7a8efa29000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "77dcae1d-1d98-4000-a89d-d13a3b43b000": {
+        "id": "77dcae1d-1d98-4000-a89d-d13a3b43b000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "85325177-4d0c-4000-a112-724ef4580000": {
+        "id": "85325177-4d0c-4000-a112-724ef4580000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "523716ef-ecf5-4000-a5f8-340d12f98000": {
+        "id": "523716ef-ecf5-4000-a5f8-340d12f98000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "94922c77-7f8e-4000-a91c-bb50e1634000": {
+        "id": "94922c77-7f8e-4000-a91c-bb50e1634000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "9899cb15-98e7-4000-a476-0f6837654000": {
+        "id": "9899cb15-98e7-4000-a476-0f6837654000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "00fec540-7d5e-4000-aa67-520ffb244000": {
+        "id": "00fec540-7d5e-4000-aa67-520ffb244000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "16436c0c-94cd-4000-aebb-6af28c0d6000": {
+        "id": "16436c0c-94cd-4000-aebb-6af28c0d6000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "ec52ac1b-28de-4000-a528-7f6a1fb79000": {
+        "id": "ec52ac1b-28de-4000-a528-7f6a1fb79000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "983cf4ad-03b1-4000-a630-b4b253a08000": {
+        "id": "983cf4ad-03b1-4000-a630-b4b253a08000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "ce058938-e6cb-4000-a82f-0bba356ca000": {
+        "id": "ce058938-e6cb-4000-a82f-0bba356ca000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "fd14a31d-846f-4000-ae3f-296c8f504000": {
+        "id": "fd14a31d-846f-4000-ae3f-296c8f504000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      }
+    },
+    "viewTransformByZoneId": {
+      "7fdfd45b-8dd6-4000-ab3f-c633234cf000": {
+        "x": 1213.6196064269038,
+        "y": 487.57452307154983,
+        "k": 0.40612619817811807
+      }
+    },
+    "isLoaderEnabled": false
+  },
+  "eventMenu": {
+    "isOpen": true,
+    "showTitles": true
+  },
+  "liveText": {},
+  "screenLayoutSettings": {
+    "selectedLayoutId": null,
+    "screenCount": null,
+    "isLayoutBoundaryToggled": false,
+    "selectedBezel": null,
+    "isSnapToCanvasToggled": false
+  }
+}
