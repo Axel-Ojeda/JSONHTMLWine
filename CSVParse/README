@@ -1,0 +1,23 @@
+Explanation: 
+
+This is a very primitive example of our goal, it uses nodeJS express to open localhost:3000 to run a html that get it's content filled with a CSV
+Why? If only the HTML is run there are CORS problems which block the HTML from reading the CSV
+
+Usage: 
+- Download the CSVParse folder 
+
+- Make sure you have nodeJS
+
+- Open a terminal in the CSVParse directory 
+
+- Prepare the node Modules and package run the following code:
+    - npm init -y
+    - npm install express
+
+- Run the command: node srvr.js
+
+- Click the link in the terminal 
+
+other files:
+
+videLink: is a 9 minute video that show case the original JSON based presentation, our current goal is to move from a JSON within the HTML code to a CSV as a separate file, the video however is janky
